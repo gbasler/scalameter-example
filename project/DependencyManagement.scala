@@ -59,4 +59,7 @@ object DependencyManagement {
   def MockitoAll = "org.mockito" % "mockito-all" % "1.10.8" % "test"
 
   def ScalaMeter = "com.github.axel22" %% "scalameter" % "0.4" % "test"
+
+  /** Apache Commons Math, used for a interpolators, integration, utilities */
+  def CommonsMath3 = "org.apache.commons" % "commons-math3" % "3.2"
 }

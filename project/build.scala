@@ -38,7 +38,7 @@ object build extends Build {
       testFrameworks += new TestFramework("org.scalameter.ScalaMeterFramework"),
       logBuffered := false,
       parallelExecution in Test := false,
-      libraryDependencies ++= Seq(Specs, ScalaMeter) ++ SpecsDeps
+      libraryDependencies ++= Seq(Specs, ScalaMeter, CommonsMath3) ++ SpecsDeps
     )
   )
 }
